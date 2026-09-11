@@ -1,17 +1,17 @@
 class Scy < Formula
   desc "Scalary CLI"
   homepage "https://scalary.com"
-  version "0.0.33"
+  version "0.0.36"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://scalary-binary-releases.s3.us-east-1.amazonaws.com/scy/0.0.33/scy-0.0.33-darwin-arm64.zip"
-      sha256 "a94e7313ac3c27dfee853f988e8aee4ab06b10dbdd6a973435d9deed60468156"
+      url "https://scalary-binary-releases.s3.us-east-1.amazonaws.com/scy/0.0.36/scy-0.0.36-darwin-arm64.zip"
+      sha256 "922a728eef78ca45cd4391da21cf43605dde90d7af2c172db1cb6acb335ab9e2"
     end
     on_intel do
-      url "https://scalary-binary-releases.s3.us-east-1.amazonaws.com/scy/0.0.33/scy-0.0.33-darwin-amd64.zip"
-      sha256 "dca48edf3170a2e33e7056816c7b6d0e58239c50131c1200f8e9a964190e61d1"
+      url "https://scalary-binary-releases.s3.us-east-1.amazonaws.com/scy/0.0.36/scy-0.0.36-darwin-amd64.zip"
+      sha256 "3edaa7b71adcfdcb2007b657763ffd570ea4c7f8ccfc7dfe3f89bf0f73f216a4"
     end
   end
 
